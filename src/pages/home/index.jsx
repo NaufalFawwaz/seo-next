@@ -30,18 +30,12 @@ const StructuredData = () => (
 );
 
 export const Banner = ({ style }) => {
-  const [isLoaded, setIsLoaded] = React.useState(false);
-
-  React.useEffect(() => {
-    setIsLoaded(true);
-  }, []);
-
   return (
     <div
       style={style}
-      className={`flex flex-col items-center pt-10 transform transition-transform duration-1000 ${isLoaded ? 'translate-y-0 opacity-100' : '-translate-y-10 opacity-0'}`}
+      className="flex flex-col items-center pt-10"
     >
-      <h1 className="text-primary3 text-3xl sm:text-5xl 2xl:text-[3.15rem] font-bold text-center mb-8 overflow-hidden whitespace-nowrap border-r-4 border-primary1 animate-typing">
+      <h1 className="text-primary3 text-3xl sm:text-5xl 2xl:text-[3.15rem] font-bold text-center mb-8 overflow-hidden whitespace-nowrap border-r-4 border-primary1">
         Welcome To Filkom Game Corner
       </h1>
       <p className="text-white text-center text-xl sm:text-2xl lg:text-2xl font-medium w-full sm:w-auto lg:w-[786px] px-4 sm:px-6 lg:px-0">

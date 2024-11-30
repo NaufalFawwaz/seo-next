@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import assets from '../../assets';
-import { motion } from 'framer-motion';
 import Head from 'next/head';
 
 const InfoCollection = ({ games }) => {
@@ -18,43 +17,28 @@ const InfoCollection = ({ games }) => {
         <meta property="og:image" content="/path/to/your/thumbnail.jpg" />
       </Head>
 
-      <motion.div
-        className="p-8"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
+      <div className="p-8">
         <h1 className="text-3xl font-bold text-center mb-6">Filkom Game Corner Collection</h1>
-        <motion.div
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8 }}
-        >
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {games.map((game, index) => (
-            <motion.div
+            <div
               key={index}
               className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer transition-transform duration-300 hover:scale-105"
               onClick={() => router.push(`/info/${game.route}`)}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.3 }}
             >
-              <motion.img
+              <img
                 src={game.img}
                 alt={game.name}
                 className="w-full object-contain bg-gray-100"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
               />
               <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 ease-out">
                 <p className="text-white font-bold text-lg mb-2">{game.name}</p>
                 <p className="text-sm text-gray-300">Click to View Details</p>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </>
   );
 };
@@ -75,7 +59,6 @@ export async function getStaticProps() {
     { name: 'Watch Dog Legion', img: assets.watchdog, route: 'watch-dog-legion' },
     { name: 'Final Fantasy VII Rebirth', img: assets.finalfantasy, route: 'final-fantasy-VII' },
   ];
-
 
   return {
     props: {
