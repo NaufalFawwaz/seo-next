@@ -1,6 +1,7 @@
 import React from "react";
 import assets from "../../../assets";
 import { FaGamepad, FaCalendarAlt, FaFeatherAlt, FaYoutube } from "react-icons/fa";
+import Image from "next/image";
 
 const RE3 = () => {
   return (
@@ -45,9 +46,10 @@ const RE3 = () => {
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <img
+          <Image
             src={assets.re3}
             alt="Resident Evil 3"
+            width={300} height={300}
             className="w-full max-w-md h-auto object-contain bg-gray-100 mb-6 rounded-lg shadow-lg"
           />
           <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md flex flex-col gap-4">

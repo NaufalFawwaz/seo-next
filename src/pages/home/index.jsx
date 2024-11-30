@@ -5,6 +5,7 @@ import ContentLayout from '../../components/ContentLayout';
 import Image from 'next/image';
 import assets from '../../assets';
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 
 const Marquee = dynamic(() => import('react-marquee-slider'), { ssr: false });
 
@@ -30,23 +31,26 @@ const StructuredData = () => (
 );
 
 export const Banner = ({ style }) => {
-  return (
-    <div
-      style={style}
-      className="flex flex-col items-center pt-10"
-    >
-      <h1 className="text-primary3 text-3xl sm:text-5xl 2xl:text-[3.15rem] font-bold text-center mb-8 overflow-hidden whitespace-nowrap border-r-4 border-primary1">
-        Welcome To Filkom Game Corner
-      </h1>
-      <p className="text-white text-center text-xl sm:text-2xl lg:text-2xl font-medium w-full sm:w-auto lg:w-[786px] px-4 sm:px-6 lg:px-0">
-        Rasakan pengalaman bermain game yang seru di Filkom Game Corner! Mainkan koleksi game terbaru kami, atau tantang temanmu dalam pertandingan seru.
-      </p>
-      <Link href="/info" className="bg-primary3 text-xl rounded-lg font-semibold text-primary1 py-4 text-center w-[350px] mt-10 hover:bg-[#1B9BA2] hover:text-white transition duration-300">
-        Explore Filkom Game Collection
-      </Link>
-    </div>
-  );
-};
+    return (
+      <motion.div
+        style={style}
+        className="flex flex-col items-center pt-10"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+        <h1 className="text-primary3 text-3xl sm:text-5xl 2xl:text-[3.15rem] font-bold text-center mb-8 overflow-hidden whitespace-nowrap border-r-4 border-primary1 animate-typing">
+          Welcome To Filkom Game Corner
+        </h1>
+        <p className="text-white text-center text-xl sm:text-2xl lg:text-2xl font-medium w-full sm:w-auto lg:w-[786px] px-4 sm:px-6 lg:px-0">
+          Rasakan pengalaman bermain game yang seru di Filkom Game Corner! Mainkan koleksi game terbaru kami, atau tantang temanmu dalam pertandingan seru.
+        </p>
+        <Link href="/info" className="bg-primary3 text-xl rounded-lg font-semibold text-primary1 py-4 text-center w-[350px] mt-10 hover:bg-[#1B9BA2] hover:text-white transition duration-300">
+          Explore Filkom Game Collection
+        </Link>
+      </motion.div>
+    );
+  };
 
 const About = () => {
   return (
