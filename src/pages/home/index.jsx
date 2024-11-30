@@ -23,7 +23,7 @@ const StructuredData = () => (
             "@type": "Organization",
             "name": "FILKOM UB"
           },
-          "url": "https://your-website.com",
+          "url": "https://filkom-ub-game-corner-next.vercel.app/",
         }),
       }}
     />
@@ -144,7 +144,7 @@ const Home = () => {
         <meta property="og:title" content="Filkom Game Corner - Enjoy the Latest Games" />
         <meta property="og:description" content="Rasakan pengalaman bermain game di Filkom Game Corner dengan koleksi game terbaru dan fasilitas lengkap." />
         <meta property="og:image" content="/path-to-your-image.jpg" />
-        <meta property="og:url" content="https://your-website.com" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-next.vercel.app/" />
         <title>Filkom Game Corner | Mainkan Game Terbaru dan Seru!</title>
       </Head>
       <ContentLayout>
