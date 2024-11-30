@@ -80,7 +80,7 @@ const Fasilitas = () => {
         <h3 className="font-bold text-2xl text-primary1 p-4">Gaming Console</h3>
         <Marquee gradient={false} speed={50} className="gap-8">
           {consoleData.map((imgSrc, index) => (
-            <Image key={index} src={imgSrc} alt="Console" className="px-3 w-64" width={64} height={64} />
+            <Image key={index} src={imgSrc} alt="Console" className="px-3" width={300} height={300} quality={100} layout="intrinsic"/>
           ))}
         </Marquee>
       </div>
@@ -89,7 +89,7 @@ const Fasilitas = () => {
         <h3 className="font-bold text-2xl text-primary1 p-4">Available Games</h3>
         <Marquee gradient={false} speed={50} className="gap-8">
           {gameData.map((imgSrc, index) => (
-            <Image key={index} src={imgSrc} alt="Game" className="px-3 w-64" width={64} height={64} />
+            <Image key={index} src={imgSrc} alt="Console" className="px-3" width={300} height={300} quality={100} layout="intrinsic" />
           ))}
         </Marquee>
       </div>
