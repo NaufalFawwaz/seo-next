@@ -35,7 +35,7 @@ export const Banner = ({ style }) => {
       style={style}
       className="flex flex-col items-center pt-10"
     >
-      <h1 className="text-primary3 text-3xl sm:text-5xl 2xl:text-[3.15rem] font-bold text-center mb-8 overflow-hidden whitespace-nowrap border-r-4 border-primary1">
+      <h1 className="text-primary3 text-3xl sm:text-5xl 2xl:text-[3.15rem] font-bold text-center mb-8 overflow-hidden whitespace-nowrap border-r-4 border-primary1 animate-typing">
         Welcome To Filkom Game Corner
       </h1>
       <p className="text-white text-center text-xl sm:text-2xl lg:text-2xl font-medium w-full sm:w-auto lg:w-[786px] px-4 sm:px-6 lg:px-0">
