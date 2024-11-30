@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import ContentLayout from '../../components/ContentLayout';
@@ -6,7 +6,6 @@ import Image from 'next/image';
 import assets from '../../assets';
 import Head from 'next/head';
 
-// Dynamic Marquee Component
 const Marquee = dynamic(() => import('react-marquee-slider'), { ssr: false });
 
 const StructuredData = () => (
@@ -31,9 +30,9 @@ const StructuredData = () => (
 );
 
 export const Banner = ({ style }) => {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoaded, setIsLoaded] = React.useState(false);
 
-  useEffect(() => {
+  React.useEffect(() => {
     setIsLoaded(true);
   }, []);
 
@@ -55,38 +54,9 @@ export const Banner = ({ style }) => {
   );
 };
 
-// About section with scroll animations
 const About = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  // Observer to detect when "About" section is in view
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-        } else {
-          setIsVisible(false);
-        }
-      },
-      { threshold: 0.5 }
-    );
-
-    const element = document.getElementById('about');
-    if (element) observer.observe(element);
-
-    return () => {
-      if (element) observer.unobserve(element);
-    };
-  }, []);
-
   return (
-    <div
-      id="about"
-      className={`flex flex-col items-center pt-7 gap-4 bg-[#EFF0F3] transition-opacity duration-1000 transform ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-      }`}
-    >
+    <div id="about" className="flex flex-col items-center pt-7 gap-4 bg-[#EFF0F3]">
       <div className="flex flex-col items-center">
         <h2 className="font-bold text-3xl text-primary1">ABOUT</h2>
         <Image src={assets.garis} alt="Line separator" className="pt-4" width={255} height={39} />
@@ -103,7 +73,6 @@ const About = () => {
   );
 };
 
-// Fasilitas section
 const Fasilitas = () => {
   const consoleData = [assets.pumpItUp, assets.ps5, assets.xbox, assets.rog, assets.pumpItUp, assets.ps5, assets.xbox, assets.rog];
   const gameData = [assets.assassin, assets.gow, assets.re2, assets.re3, assets.spiderman, assets.tekken, assets.cod, assets.finalfantasy, assets.dmc5, assets.away, assets.watchdog, assets.turismo];

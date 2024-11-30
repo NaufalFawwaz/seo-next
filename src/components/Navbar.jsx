@@ -70,7 +70,7 @@ const Navbar = () => {
   return (
     <nav className="w-full p-4 bg-primary1 flex items-center justify-between sticky top-0 z-50">
       <Link href="/">
-        <img src={assets.logo} alt="logo" className="h-10 ml-4" />
+        <img src={assets.logo} alt="logo" height={40} width={160} className="ml-4" />
       </Link>
       
       <button 
