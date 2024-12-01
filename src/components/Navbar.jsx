@@ -87,21 +87,21 @@ const Navbar = () => {
               {data.name === 'Home' ? (
                 <button
                   onClick={handleHomeClick}
-                  className='transition-colors duration-300 ease-in-out text-white/70 hover:text-white'
+                  className='transition-colors duration-300 ease-in-out text-white/90 hover:text-white'
                 >
                   {data.name}
                 </button>
               ) : data.nav ? (
                 <button
                   onClick={() => handleScroll(data.nav)}
-                  className='transition-colors duration-300 ease-in-out text-white/70 hover:text-white'
+                  className='transition-colors duration-300 ease-in-out text-white/90 hover:text-white'
                 >
                   {data.name}
                 </button>
               ) : (
                 <Link
                   href={data.url}
-                  className='transition-colors duration-300 ease-in-out text-white/70 hover:text-white'
+                  className='transition-colors duration-300 ease-in-out text-white/90 hover:text-white'
                 >
                   {data.name}
                 </Link>
@@ -120,14 +120,14 @@ const Navbar = () => {
               {data.name === 'Home' ? (
                 <button
                   onClick={handleHomeClick}
-                  className='transition-colors duration-300 ease-in-out text-white/70 hover:text-white text-lg font-semibold'
+                  className='transition-colors duration-300 ease-in-out text-white/90 hover:text-white text-lg font-semibold'
                 >
                   {data.name}
                 </button>
               ) : data.nav ? (
                 <button
                   onClick={() => handleScroll(data.nav)}
-                  className='transition-colors duration-300 ease-in-out text-white/70 hover:text-white text-lg font-semibold'
+                  className='transition-colors duration-300 ease-in-out text-white/90 hover:text-white text-lg font-semibold'
                 >
                   {data.name}
                 </button>
@@ -135,7 +135,7 @@ const Navbar = () => {
                 <Link
                   href={data.url}
                   onClick={() => setIsOpen(false)}
-                  className='transition-colors duration-300 ease-in-out text-white/70 hover:text-white text-lg font-semibold'
+                  className='transition-colors duration-300 ease-in-out text-white/90 hover:text-white text-lg font-semibold'
                 >
                   {data.name}
                 </Link>

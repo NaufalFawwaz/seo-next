@@ -108,6 +108,7 @@ const Home = () => {
       <Head>
         <meta name="description" content="Filkom Game Corner menawarkan pengalaman bermain game yang seru dengan koleksi game terbaru dan fasilitas gaming lengkap." />
         <meta name="keywords" content="Filkom Game Corner, Filkom UB, Filkom UB Game Corner, Game Corner, gaming console, available games, PS5, Xbox, gaming facility" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Filkom Game Corner - Enjoy the Latest Games" />
         <meta property="og:description" content="Rasakan pengalaman bermain game di Filkom Game Corner dengan koleksi game terbaru dan fasilitas lengkap." />
         <meta property="og:image" content="/path-to-your-image.jpg" />
