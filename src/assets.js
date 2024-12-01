@@ -1,7 +1,7 @@
 const assets = {
     assassin: '/assets/assassin.jpg',
     away: '/assets/away.jpg',
-    background: '/assets/background.jpg',
+    background: '/assets/background.png',
     cod: '/assets/cod.jpg',
     dmc5: '/assets/dmc5.jpg',
     finalfantasy: '/assets/finalfantasy.jpg',
