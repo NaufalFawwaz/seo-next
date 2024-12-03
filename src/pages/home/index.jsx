@@ -93,7 +93,7 @@ const Fasilitas = () => {
         <h3 className="font-bold text-2xl text-primary1 p-4">Available Games</h3>
         <Marquee gradient={false} speed={50} className="gap-8">
           {gameData.map((imgSrc, index) => (
-            <Image key={index} src={imgSrc} alt="Console" className="px-3" width={300} height={300} quality={100} layout="intrinsic" />
+            <Image key={index} src={imgSrc} alt="Game" className="px-3" width={300} height={300} quality={100} layout="intrinsic" />
           ))}
         </Marquee>
       </div>
@@ -111,7 +111,7 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Filkom Game Corner - Enjoy the Latest Games" />
         <meta property="og:description" content="Rasakan pengalaman bermain game di Filkom Game Corner dengan koleksi game terbaru dan fasilitas lengkap." />
-        <meta property="og:image" content="/path-to-your-image.jpg" />
+        <meta property="og:image" content="../assets/pict.jpg" />
         <meta property="og:url" content="https://filkom-ub-game-corner-next.vercel.app/" />
         <title>Filkom Game Corner | Mainkan Game Terbaru dan Seru!</title>
       </Head>

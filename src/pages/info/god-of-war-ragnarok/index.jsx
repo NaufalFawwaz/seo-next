@@ -15,7 +15,7 @@ const GodOfWar = () => {
         />
         <meta
           name="keywords"
-          content="God of War Ragnarök, Filkom Game Corner, UB, game petualangan, game aksi, Kratos, Atreus, mitologi Nordik, RPG, PS5, game epic"
+          content="God of War Ragnarök, Filkom UB Game Corner, UB, game petualangan, game aksi, Kratos, Atreus, mitologi Nordik, RPG, PS5, game epic"
         />
         <meta property="og:title" content="God of War Ragnarök | Filkom Game Corner UB" />
         <meta
