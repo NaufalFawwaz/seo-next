@@ -106,6 +106,7 @@ const Home = () => {
     <div>
       <StructuredData />
       <Head>
+        <meta name="google-site-verification" content="UuVx5ZjVaS5_tMI_usURo5HGeAlOGH82bALrzZAVXSA" />
         <meta name="description" content="Filkom Game Corner menawarkan pengalaman bermain game yang seru dengan koleksi game terbaru dan fasilitas gaming lengkap." />
         <meta name="keywords" content="Filkom UB Game Corner, Filkom UB, Filkom Game Corner, Game Corner, gaming console, available games, PS5, Xbox, gaming facility" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
