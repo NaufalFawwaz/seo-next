@@ -11,7 +11,7 @@ const InfoCollection = ({ games }) => {
       <Head>
         <title>Filkom Game Corner Collection</title>
         <meta name="description" content="Temukan koleksi game terbaru di Filkom Game Corner!" />
-        <meta name="keywords" content="Filkom Game Corner, koleksi game, PS5, Xbox, game seru" />
+        <meta name="keywords" content="Filkom UB Game Corner, Filkom Game Corner, koleksi game, PS5, Xbox, game seru" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Filkom UB Game Corner Collection" />
         <meta property="og:description" content="Jelajahi berbagai game seru yang bisa dimainkan di berbagai konsol." />

@@ -17,8 +17,8 @@ const StructuredData = () => (
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": "Filkom Game Corner",
-          "description": "Filkom Game Corner menawarkan pengalaman bermain game yang seru dengan koleksi game terbaru dan fasilitas gaming lengkap.",
+          "name": "Filkom UB Game Corner",
+          "description": "Filkom UB Game Corner menawarkan pengalaman bermain game yang seru dengan koleksi game terbaru dan fasilitas gaming lengkap.",
           "publisher": {
             "@type": "Organization",
             "name": "FILKOM UB"
@@ -107,7 +107,7 @@ const Home = () => {
       <StructuredData />
       <Head>
         <meta name="description" content="Filkom Game Corner menawarkan pengalaman bermain game yang seru dengan koleksi game terbaru dan fasilitas gaming lengkap." />
-        <meta name="keywords" content="Filkom Game Corner, Filkom UB, Filkom UB Game Corner, Game Corner, gaming console, available games, PS5, Xbox, gaming facility" />
+        <meta name="keywords" content="Filkom UB Game Corner, Filkom UB, Filkom Game Corner, Game Corner, gaming console, available games, PS5, Xbox, gaming facility" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Filkom Game Corner - Enjoy the Latest Games" />
         <meta property="og:description" content="Rasakan pengalaman bermain game di Filkom Game Corner dengan koleksi game terbaru dan fasilitas lengkap." />
