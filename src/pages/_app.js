@@ -1,5 +1,5 @@
 // src/pages/_app.js
-import '../styles/globals.css'; // Mengimpor CSS global (Tailwind atau lainnya)
+import '../styles/globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 

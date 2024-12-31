@@ -45,7 +45,7 @@ export const Banner = ({ style }) => {
         <p className="text-white text-center text-xl sm:text-2xl lg:text-2xl font-medium w-full sm:w-auto lg:w-[786px] px-4 sm:px-6 lg:px-0">
           Rasakan pengalaman bermain game yang seru di Filkom Game Corner! Mainkan koleksi game terbaru kami, atau tantang temanmu dalam pertandingan seru.
         </p>
-        <Link href="/info" className="bg-primary3 text-xl rounded-lg font-semibold text-primary1 py-4 text-center w-[350px] mt-10 hover:bg-[#1B9BA2] hover:text-white transition duration-300">
+        <Link href="/games" className="bg-primary3 text-xl rounded-lg font-semibold text-primary1 py-4 text-center w-[350px] mt-10 hover:bg-[#1B9BA2] hover:text-white transition duration-300">
           Explore Filkom Game Collection
         </Link>
       </motion.div>

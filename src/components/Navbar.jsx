@@ -22,8 +22,8 @@ const navItem = [
     url: '/booking'
   },
   {
-    name: 'Info',
-    url: '/info'
+    name: 'Games',
+    url: '/games'
   }
 ];
 

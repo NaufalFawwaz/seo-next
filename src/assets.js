@@ -19,6 +19,21 @@ const assets = {
     watchdog: '/assets/watchdog.jpg',
     xbox: '/assets/xbox.jpg',
     logo: '/assets/logo.png',
+    EldenRing : '/assets/EldenRing.jpg',
+    fifa : '/assets/fifa.jpg',
+    ghost : '/assets/ghost.jpg',
+    godOfwar : '/assets/godOfwar.jpg',
+    gtaV : '/assets/gtaV.jpg',
+    itTakestwo : '/assets/itTakestwo.jpg',
+    miles : '/assets/miles.jpg',
+    stray : '/assets/stray.jpg',
+    mw2 : '/assets/mw2.jpg',
+    nba : '/assets/nba.jpg',
+    pes : '/assets/pes.jpg',
+    StreetFighter6 : '/assets/StreetFighter6.jpg',
+    uncharted : '/assets/uncharted.jpg',
+    untilDawn : '/assets/untilDawn.jpg',
+    valhalla : '/assets/valhalla.jpg'
   };
   
   export default assets;
