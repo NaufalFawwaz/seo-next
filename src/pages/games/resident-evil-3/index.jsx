@@ -28,7 +28,7 @@ const RE3 = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/resident-evil-3"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/resident-evil-3"
                 />
             </Head>
 

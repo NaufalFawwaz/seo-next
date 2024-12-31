@@ -31,7 +31,7 @@ const EFootball2024 = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/efootball2024"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/efootball2024"
                 />
             </Head>
 

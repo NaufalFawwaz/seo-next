@@ -28,7 +28,7 @@ const GodOfWar = () => {
         />
         <meta
           property="og:url"
-          content="https://filkom-ub-game-corner-next.vercel.app/info/god-of-war-ragnarok"
+          content="https://filkom-ub-game-corner-next.vercel.app/games/god-of-war-ragnarok"
         />
       </Head>
 

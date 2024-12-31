@@ -31,7 +31,7 @@ const Valhalla = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/valhalla"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/valhalla"
                 />
             </Head>
 

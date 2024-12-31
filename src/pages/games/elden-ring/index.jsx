@@ -28,7 +28,7 @@ const EldenRing = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/elden-ring"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/elden-ring"
                 />
             </Head>
 

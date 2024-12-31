@@ -31,7 +31,7 @@ const NBA = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/nba2k25"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/nba2k25"
                 />
             </Head>
 

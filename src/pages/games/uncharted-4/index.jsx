@@ -31,7 +31,7 @@ const Uncharted4 = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/uncharted4"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/uncharted4"
                 />
             </Head>
 

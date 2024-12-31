@@ -28,7 +28,7 @@ const DevilMyCry = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/devil-may-cry-5"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/devil-may-cry-5"
                 />
             </Head>
 

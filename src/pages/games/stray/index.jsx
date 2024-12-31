@@ -28,7 +28,7 @@ const Stray = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/stray"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/stray"
                 />
             </Head>
 

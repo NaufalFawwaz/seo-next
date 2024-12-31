@@ -28,7 +28,7 @@ const MilesMorales = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/spiderman-miles-morales"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/spiderman-miles-morales"
                 />
             </Head>
 

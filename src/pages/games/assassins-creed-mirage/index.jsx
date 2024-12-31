@@ -25,7 +25,7 @@ const AssassinCreed = () => {
         <meta property="og:image" content="/assets/assassin.jpg" />
         <meta
           property="og:url"
-          content="https://filkom-ub-game-corner-next.vercel.app/info/assassins-creed-mirage"
+          content="https://filkom-ub-game-corner-next.vercel.app/games/assassins-creed-mirage"
         />
       </Head>
 

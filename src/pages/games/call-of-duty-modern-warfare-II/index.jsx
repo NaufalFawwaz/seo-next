@@ -31,7 +31,7 @@ const MW2 = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/call-of-duty-modern-warfare-2"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/call-of-duty-modern-warfare-2"
                 />
             </Head>
 

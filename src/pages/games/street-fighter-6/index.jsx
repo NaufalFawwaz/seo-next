@@ -31,7 +31,7 @@ const StreetFighter6 = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/streetfighter6"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/streetfighter6"
                 />
             </Head>
 

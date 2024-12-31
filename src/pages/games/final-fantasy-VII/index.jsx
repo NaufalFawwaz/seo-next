@@ -28,7 +28,7 @@ const FinalFantasy = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/final-fantasy-7-rebirth"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/final-fantasy-7-rebirth"
                 />
             </Head>
 

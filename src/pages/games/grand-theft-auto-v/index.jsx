@@ -28,7 +28,7 @@ const GTA = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/gta-v"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/gta-v"
                 />
             </Head>
 

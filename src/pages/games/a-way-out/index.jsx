@@ -28,7 +28,7 @@ const AwayOut = () => {
         />
         <meta
           property="og:url"
-          content="https://filkom-ub-game-corner-next.vercel.app/info/a-way-out"
+          content="https://filkom-ub-game-corner-next.vercel.app/games/a-way-out"
         />
       </Head>
 

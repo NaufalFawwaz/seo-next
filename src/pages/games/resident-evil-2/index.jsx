@@ -28,7 +28,7 @@ const RE2 = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/resident-evil-2"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/resident-evil-2"
                 />
             </Head>
 

@@ -28,7 +28,7 @@ const Turismo7 = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/gran-turismo-7"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/gran-turismo-7"
                 />
             </Head>
 

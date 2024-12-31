@@ -28,7 +28,7 @@ const Fifa = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/fifa-23"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/fifa-23"
                 />
             </Head>
 

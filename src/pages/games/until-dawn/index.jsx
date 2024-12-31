@@ -31,7 +31,7 @@ const UntilDawn = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/untildawn"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/untildawn"
                 />
             </Head>
 

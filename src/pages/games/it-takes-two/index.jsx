@@ -28,7 +28,7 @@ const ItTakesTwo = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/it-takes-two"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/it-takes-two"
                 />
             </Head>
 

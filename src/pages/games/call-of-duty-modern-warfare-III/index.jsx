@@ -28,7 +28,7 @@ const CallOfDuty = () => {
         />
         <meta
           property="og:url"
-          content="https://filkom-ub-game-corner-next.vercel.app/info/call-of-duty-modern-warfare-iii"
+          content="https://filkom-ub-game-corner-next.vercel.app/games/call-of-duty-modern-warfare-iii"
         />
       </Head>
 

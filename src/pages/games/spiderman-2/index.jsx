@@ -28,7 +28,7 @@ const SpiderMan2 = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/info/spider-man-2"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/spider-man-2"
                 />
             </Head>
 
