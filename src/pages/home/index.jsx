@@ -106,15 +106,15 @@ const Home = () => {
     <div>
       <StructuredData />
       <Head>
+        <title>Filkom Game Corner | Mainkan Game Terbaru dan Seru!</title>
         <meta name="google-site-verification" content="UuVx5ZjVaS5_tMI_usURo5HGeAlOGH82bALrzZAVXSA" />
-        <meta name="description" content="Filkom Game Corner menawarkan pengalaman bermain game yang seru dengan koleksi game terbaru dan fasilitas gaming lengkap." />
-        <meta name="keywords" content="Filkom UB Game Corner, Filkom UB, Filkom Game Corner, Game Corner, gaming console, available games, PS5, Xbox, gaming facility" />
+        <meta name="description" content="Rasakan pengalaman bermain game yang seru di Filkom's Game Corner! Mainkan koleksi game terbaru kami, atau tantang temanmu dalam pertandingan seru." />
+        <meta name="keywords" content="Filkom UB Game Corner, Filkom Game Corner, Game Corner, gaming console, games, permainan, mahasiswa, gaming, tempat bermain, BRI" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Filkom Game Corner - Enjoy the Latest Games" />
-        <meta property="og:description" content="Rasakan pengalaman bermain game di Filkom Game Corner dengan koleksi game terbaru dan fasilitas lengkap." />
+        <meta property="og:title" content="Filkom Game Corner | Mainkan Game Terbaru dan Seru!" />
+        <meta property="og:description" content="Nikmati koleksi game terbaru dan fasilitas gaming terbaik di Filkom's Game Corner." />
         <meta property="og:image" content="../assets/pict.jpg" />
         <meta property="og:url" content="https://filkom-ub-game-corner-next.vercel.app/" />
-        <title>Filkom Game Corner | Mainkan Game Terbaru dan Seru!</title>
       </Head>
       <ContentLayout>
         <Banner style={{ backgroundImage: `url(${assets.background})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '540px' }} />
