@@ -135,7 +135,7 @@ const Booking = ({ initialBookedSlots }) => {
         <meta property="og:url" content="https://filkom-ub-game-corner-next.vercel.app/booking" />
         <link rel="canonical" href="https://filkom-ub-game-corner-next.vercel.app/booking" />
       </Head>
-      <h2 className="text-4xl font-bold text-blue-600 mb-8 text-center">Game Console Booking</h2>
+      <h2 className="text-4xl font-bold text-primary1 mb-8 text-center">Game Console Booking</h2>
 
       {alertMessage && (
         <div
