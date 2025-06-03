@@ -20,6 +20,26 @@ const Booking = ({ initialBookedSlots }) => {
   const [alertType, setAlertType] = useState("");
 
   const consoles = ["PC ROG", "PS5", "Xbox", "Pump It Up"];
+  const today = new Date().toISOString().split("T")[0];
+
+const getAvailableTimeSlots = () => {
+  if (!selectedDate) return [];
+
+  const now = new Date();
+  const selected = new Date(selectedDate);
+  const isToday = selected.toDateString() === now.toDateString();
+
+  return timeSlots.filter((slot) => {
+    const [startTime] = slot.split(" - ");
+    const [hour, minute] = startTime.split(":").map(Number);
+
+    const slotDateTime = new Date(selectedDate);
+    slotDateTime.setHours(hour, minute, 0, 0);
+
+    return !isToday || slotDateTime > now;
+  });
+};
+
   const timeSlots = [
     "11:40 - 12:00",
     "13:05 - 13:45",
@@ -212,6 +232,7 @@ const Booking = ({ initialBookedSlots }) => {
               type="date"
               className="block w-full mt-2 p-2 border border-gray-300 rounded-lg"
               value={selectedDate}
+              min={today}
               onChange={(e) => setSelectedDate(e.target.value)}
               required
             />
@@ -225,12 +246,13 @@ const Booking = ({ initialBookedSlots }) => {
               required
             >
               <option value="">Pilih Waktu</option>
-              {timeSlots.map((slot) => (
+              {getAvailableTimeSlots().map((slot) => (
                 <option key={slot} value={slot}>
                   {slot}
                 </option>
               ))}
             </select>
+
           </label>
           <button
             type="submit"
