@@ -41,7 +41,7 @@ const UntilDawn = () => {
                     Your choices will determine who survives the night.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/3NcF7EOnjow?si=eU9hAZzOszS2STiu"
+                    src="https://www.youtube.com/embed/3NcF7EOnjow?si=eU9hAZzOszS2STiu"
                     title="Until Dawn Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

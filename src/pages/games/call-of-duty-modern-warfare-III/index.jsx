@@ -38,7 +38,7 @@ const CallOfDuty = () => {
           Experience the epic conclusion to the Modern Warfare saga.
         </p>
         <iframe
-          src="https://youtube.com/embed/i3IsLrPeZG8?si=KcBFgfC51mQJp-ki"
+          src="https://www.youtube.com/embed/i3IsLrPeZG8?si=KcBFgfC51mQJp-ki"
           title="Call of Duty: Modern Warfare 3 Trailer"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

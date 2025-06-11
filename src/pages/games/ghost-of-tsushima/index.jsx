@@ -28,7 +28,7 @@ const GhostTsushima = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://filkom-ub-game-corner-next.vercel.app/games/ghost-of-tsushima"
+                    content="https://www.filkom-ub-game-corner-next.vercel.app/games/ghost-of-tsushima"
                 />
             </Head>
 

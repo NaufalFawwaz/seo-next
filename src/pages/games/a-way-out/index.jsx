@@ -38,7 +38,7 @@ const AwayOut = () => {
           Escape together with a friend in this co-op adventure.
         </p>
         <iframe
-          src="https://youtube.com/embed/-r5fY05t_7g?si=BlmtlLJen0bCDZ4o"
+          src="https://www.youtube.com/embed/-r5fY05t_7g?si=BlmtlLJen0bCDZ4o"
           title="A Way Out Trailer"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

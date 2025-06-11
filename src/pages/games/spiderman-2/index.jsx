@@ -38,7 +38,7 @@ const SpiderMan2 = () => {
                     Swing into action as Peter Parker and Miles Morales in Spider-Man 2.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/nq1M_Wc4FIc?si=78w1n01u5DEXDLoA"
+                    src="https://www.youtube.com/embed/nq1M_Wc4FIc?si=78w1n01u5DEXDLoA"
                     title="Spider-Man 2 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

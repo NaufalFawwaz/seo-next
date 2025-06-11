@@ -38,7 +38,7 @@ const ItTakesTwo = () => {
                     A unique co-op adventure for two players.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/ohClxMmNLQQ"
+                    src="https://www.youtube.com/embed/ohClxMmNLQQ"
                     title="It Takes Two Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

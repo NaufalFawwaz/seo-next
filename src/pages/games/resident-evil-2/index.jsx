@@ -38,7 +38,7 @@ const RE2 = () => {
                     Experience the survival horror of Raccoon City.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/u3wS-Q2KBpk?si=VhqaT-s06xx2HVeA"
+                    src="https://www.youtube.com/embed/u3wS-Q2KBpk?si=VhqaT-s06xx2HVeA"
                     title="Resident Evil 2 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

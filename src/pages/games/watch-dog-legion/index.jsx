@@ -38,7 +38,7 @@ const WatchDogs = () => {
                     Build your resistance and fight back against oppression in a futuristic London.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/srXrGKGAU20?si=-q2N9wuSYhfAIwfw"
+                    src="https://www.youtube.com/embed/srXrGKGAU20?si=-q2N9wuSYhfAIwfw"
                     title="Watch Dogs: Legion Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

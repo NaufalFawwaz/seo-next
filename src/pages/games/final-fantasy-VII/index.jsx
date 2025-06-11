@@ -38,7 +38,7 @@ const FinalFantasy = () => {
                     The next chapter in the iconic Final Fantasy 7 saga.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/Q56cRDseTGQ?si=ajNTs0MwWaR2KFtX"
+                    src="https://www.youtube.com/embed/Q56cRDseTGQ?si=ajNTs0MwWaR2KFtX"
                     title="Final Fantasy 7 Rebirth Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

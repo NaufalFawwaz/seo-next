@@ -38,7 +38,7 @@ const MilesMorales = () => {
                     Step into the shoes of Miles Morales as he takes on the mantle of Spider-Man.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/ymEnvJSFqfw?si=TZaQBIazIgQSSleM"
+                    src="https://www.youtube.com/embed/ymEnvJSFqfw?si=TZaQBIazIgQSSleM"
                     title="Spider-Man: Miles Morales Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

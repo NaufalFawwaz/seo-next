@@ -38,7 +38,7 @@ const Fifa = () => {
                     Experience the ultimate football simulation with FIFA 23.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/o3V-GvvzjE4"
+                    src="https://www.youtube.com/embed/o3V-GvvzjE4"
                     title="FIFA 23 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

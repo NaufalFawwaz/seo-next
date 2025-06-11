@@ -38,7 +38,7 @@ const Tekken8 = () => {
                     The legendary fighting game series returns with new characters and mechanics.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/2hPuRQz6IlM?si=xC_TVvQRHBdIiOoF"
+                    src="https://www.youtube.com/embed/2hPuRQz6IlM?si=xC_TVvQRHBdIiOoF"
                     title="Tekken 8 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

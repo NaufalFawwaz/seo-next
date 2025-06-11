@@ -38,7 +38,7 @@ const RE3 = () => {
                     Experience the horror in Raccoon City once again.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/xNjGFUaorYc?si=jA7nTyCljktomtp5"
+                    src="https://www.youtube.com/embed/xNjGFUaorYc?si=jA7nTyCljktomtp5"
                     title="Resident Evil 3 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

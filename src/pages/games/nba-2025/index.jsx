@@ -41,7 +41,7 @@ const NBA = () => {
                     Experience the thrill of basketball like never before with NBA 2K25.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/zwQ9RjfvJN0?si=bKkI6JG1ZpllNyQB"
+                    src="https://www.youtube.com/embed/zwQ9RjfvJN0?si=bKkI6JG1ZpllNyQB"
                     title="NBA 2K25 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

@@ -41,7 +41,7 @@ const Valhalla = () => {
                     Lead your clan to glory in the age of Vikings.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/yaoUZKnLvVA?si=5rcqlv0F-7-aPfO9"
+                    src="https://www.youtube.com/embed/yaoUZKnLvVA?si=5rcqlv0F-7-aPfO9"
                     title="Assassin's Creed Valhalla Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

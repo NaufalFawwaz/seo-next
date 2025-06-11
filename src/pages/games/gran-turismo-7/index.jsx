@@ -38,7 +38,7 @@ const Turismo7 = () => {
                     The ultimate racing experience on PlayStation 5.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/1tBUsXIkG1A?si=_bflfARHpjMVxihK"
+                    src="https://www.youtube.com/embed/1tBUsXIkG1A?si=_bflfARHpjMVxihK"
                     title="Gran Turismo 7 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

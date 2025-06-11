@@ -41,7 +41,7 @@ const EFootball2024 = () => {
                     Experience the thrill of the pitch with eFootball 2024.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/BdyXsZMPjWo?si=b4qH21oAxZ5dJfHT"
+                    src="https://www.youtube.com/embed/BdyXsZMPjWo?si=b4qH21oAxZ5dJfHT"
                     title="eFootball 2024 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

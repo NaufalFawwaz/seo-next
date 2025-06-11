@@ -36,7 +36,7 @@ const AssassinCreed = () => {
         </p>
 
         <iframe
-          src="https://youtube.com/embed/IRNOoOYVn80?si=e6f7xNpr5URQfdKA"
+          src="https://www.youtube.com/embed/IRNOoOYVn80?si=e6f7xNpr5URQfdKA"
           title="Assassin's Creed Mirage Trailer"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
