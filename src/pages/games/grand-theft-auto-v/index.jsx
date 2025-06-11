@@ -28,7 +28,7 @@ const GTA = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://www.filkom-ub-game-corner-next.vercel.app/games/gta-v"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/gta-v"
                 />
             </Head>
 
@@ -38,7 +38,7 @@ const GTA = () => {
                     Experience the freedom and chaos of Los Santos.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/QkkoHAzjnUs"
+                    src="https://www.youtube.com/embed/QkkoHAzjnUs"
                     title="Grand Theft Auto V Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

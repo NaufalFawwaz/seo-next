@@ -28,7 +28,7 @@ const GodOfWar = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://www.filkom-ub-game-corner-next.vercel.app/games/god-of-war"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/god-of-war"
                 />
             </Head>
 
@@ -38,7 +38,7 @@ const GodOfWar = () => {
                     Embark on an epic journey with Kratos and Atreus.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/K0u_kAWLJOA"
+                    src="https://www.youtube.com/embed/K0u_kAWLJOA"
                     title="God of War Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
