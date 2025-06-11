@@ -41,7 +41,7 @@ const MW2 = () => {
                     Immerse yourself in the thrilling action of Modern Warfare 2.
                 </p>
                 <iframe
-                    src="https://www.youtube.com/embed//ztjfwecrY8E?si=wc6Qd8eDWTJ_m5Y9"
+                    src="https://www.youtube.com/embed/ztjfwecrY8E?si=wc6Qd8eDWTJ_m5Y9"
                     title="Call of Duty: Modern Warfare 2 Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
