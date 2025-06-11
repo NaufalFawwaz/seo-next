@@ -28,7 +28,7 @@ const GhostTsushima = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://www.filkom-ub-game-corner-next.vercel.app/games/ghost-of-tsushima"
+                    content="https://filkom-ub-game-corner-next.vercel.app/games/ghost-of-tsushima"
                 />
             </Head>
 
@@ -38,7 +38,7 @@ const GhostTsushima = () => {
                     Embark on an epic samurai journey in Ghost of Tsushima.
                 </p>
                 <iframe
-                    src="https://youtube.com/embed/MUz539AeC5Y?si=HLFPRV1f9aHIBDKS"
+                    src="https://www.youtube.com/embed/MUz539AeC5Y?si=HLFPRV1f9aHIBDKS"
                     title="Ghost of Tsushima Trailer"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
